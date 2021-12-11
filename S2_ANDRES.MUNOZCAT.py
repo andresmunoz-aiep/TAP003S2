@@ -1,17 +1,19 @@
-def sumar(val1, decada):
-    result = val1 + decada
-    return result
 
+def suma(edad, decada):
+    resultado = edad + decada
+    return resultado
 
-# Variable / Constante
+# Declaración de Variables / Constantes
 decada = int(10)
 
-# Entrada
+# Datos de Entrada
+nombre = input("Ingrese su Nombre: ")
+edad = int(input("Ingrese su edad: "))
 
-val1 = int(input("Ingrese su edad: "))
+# Calculos - Funciones
+resultado = suma(edad, decada)
 
-# Proceso
-resultado = sumar(val1, decada)
+# Resultados - Despliegue
+print("Estimado", nombre, ",en una década su edad será de", resultado, "años.")
 
-# Salida
-print("Usted tendrá", resultado, "años en una década más")
+# TAP003 - S2 - ANDRES MUÑOZ CATALAN -AIEP"#
