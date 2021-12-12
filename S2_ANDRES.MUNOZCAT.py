@@ -1,4 +1,4 @@
-
+# Función
 def suma(edad, decada):
     resultado = edad + decada
     return resultado
@@ -14,6 +14,6 @@ edad = int(input("Ingrese su edad: "))
 resultado = suma(edad, decada)
 
 # Resultados - Despliegue
-print("Estimado", nombre, ",en una década su edad será de", resultado, "años.")
+print("Estimado", nombre+",", "en una década su edad será de", resultado, "años.")
 
-# TAP003 - S2 - ANDRES MUÑOZ CATALAN -AIEP"#
+# TAP003 - S2 - ANDRES MUÑOZ CATALAN - AIEP"
